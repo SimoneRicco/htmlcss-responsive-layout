@@ -76,9 +76,6 @@ header .container{
 .jumbo-title{
     color: var(--blue);
 }
-.jumbo-container{
-    padding-top: 3rem;
-}
 .jumbo-icon{
     font-size: 5rem;
     color: var(--blue);
@@ -90,7 +87,8 @@ header .container{
 .jumbo-container{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
+    padding-top: 3rem;
 }
 /* planning-area */
 .planning-area{
@@ -196,12 +194,14 @@ header .container{
 }
 .benefit{
     background-color: white;
+    margin-inline: auto;
 }
 .benefits h2{
     color: white;
     font-size: 2rem;
     text-align: center;
     margin-bottom: 2rem;
+    margin: auto;
 }
 .nbr{
     color: var(--light-purple);
@@ -246,6 +246,7 @@ header .container{
     aspect-ratio: 1 / 1;
     border-radius: 50%;
     overflow: hidden;
+    width: 100%;
 }
 .manager-profile img{
     object-fit: cover;
@@ -254,7 +255,7 @@ header .container{
 }
 .manager{
     position: relative;
-    width: 50%;
+    width: 200px;
 }
 .manager i{
     color: var(--light-purple);
@@ -326,4 +327,58 @@ footer{
 }
 .footer-links a{
     color: var(--light-purple);
+}
+/* responsive area  */
+
+@media screen and (min-width: 480px) {
+    .container{
+        width: 90%;
+    }
+    .jumbo-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .jumbo{
+        width: calc(100% / 3 - 1rem);
+        word-wrap: break-word;
+    }
+    .big{
+        width: calc(100% / 3 * 2 - 1rem);
+    }
+    .card{
+        display: flex;
+    }
+    .prof-img{
+        margin-left: 0;
+    }
+    .card-text{
+        margin: 0 0 1rem 0;
+        text-align: left;
+    }
+    .benefit{
+        width: calc(100% / 2 - 2rem);
+    }
+    .more{
+        padding: .8rem 3rem;
+    }
+    .about-us-area .container{
+        display: flex;
+    }
+    .manager-area{
+        margin-left: 3rem;
+    }
+    .manager-text{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .get-started-btn{
+        width: 40%;
+    }
+    .started-text{
+        width: 70%;
+        margin: auto;
+    }
+    footer{
+        padding-inline: 10rem;    
+    }
 }
