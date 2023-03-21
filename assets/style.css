@@ -171,7 +171,6 @@ header .container{
     object-fit: cover;
     width: 100%;
     aspect-ratio: 1 / 1;
-    display: block;
 }
 .card-text{
     line-height: var(--line-height);
@@ -229,4 +228,53 @@ header .container{
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
+}
+/* about us  */
+.about-us-area{
+    padding: 5rem 0;
+}
+.ab-us-title{
+    color: var(--light-purple);
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+.ab-us-desc{
+    line-height: var(--line-height);
+    margin-bottom: 2rem;
+}
+.manager-profile{
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.manager-profile img{
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+.manager{
+    position: relative;
+    width: 50%;
+}
+.manager i{
+    color: var(--light-purple);
+    font-size: 3rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.manager-text{
+    color: var(--light-purple);
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+.linkedin-prof{
+    background-color: var(--light-purple);
+    color: white;
+    padding: .5rem 1rem;
+}
+.linkedin-icon{
+    margin-right: 10px;
 }
