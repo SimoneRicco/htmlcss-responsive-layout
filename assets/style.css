@@ -137,3 +137,55 @@ header .container{
     align-items: center;
     margin: 2rem auto 0;
 }
+/* testimonials-area */
+.testimonials-area{
+    text-align: center;
+}
+.tes-area{
+    padding: 2rem 0;
+}
+.tes-title{
+    margin: 2rem 0;
+    color: var(--light-purple);
+    font-size: 2rem;
+}
+.tes-text{
+    line-height: var(--line-height);
+}
+/* card area  */
+.card{
+    background-color: var(--light-purple);
+    color: white;
+}
+.img-area{
+    width: 100%;
+} 
+.prof-img{
+    aspect-ratio: 1 / 1;
+    width: 80%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-inline: auto;
+}
+.prof-img img{
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1 / 1
+}
+.card-text{
+    line-height: var(--line-height);
+    margin: 1rem 0 2rem 0;
+}
+.search-name{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.superscript-right, .superscript-left{
+    font-size: 1.5rem;
+}
+.cards{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
