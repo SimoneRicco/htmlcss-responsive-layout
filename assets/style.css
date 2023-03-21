@@ -246,6 +246,7 @@ nav a{
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
+    margin-top: 4rem;
 }
 /* about us  */
 .about-us-area{
@@ -400,6 +401,9 @@ footer{
     }
 }
 @media screen and (min-width: 768px) {
+    .container{
+        padding-inline: 15%;
+    }
     nav{
         display: flex;
     }
@@ -412,5 +416,21 @@ footer{
     .phone{
         margin: 0;
         width: 50%;
+        object-fit: contain;
+        display: flex;
+        align-self: flex-end;
+    }
+    .planning-area .container{
+        display: flex;
+        gap: 4rem;
+    }
+    .p-row{
+        width: calc(50% - 4rem);
+    }
+    .app-dev{
+        transform: scale(.8);
+    }
+    .benefit{
+        width: calc(100% / 3 - 2rem);
     }
 }
