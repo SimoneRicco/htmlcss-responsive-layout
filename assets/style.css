@@ -314,3 +314,16 @@ header .container{
 .get-started-copyright a{
  color: white;
 }
+/* footer  */
+footer{
+    background-color: #333333;
+    padding: 2rem 0;
+    text-align: center;
+    color: white;
+}
+.footer-links{
+    margin-top: 3rem;
+}
+.footer-links a{
+    color: var(--light-purple);
+}
