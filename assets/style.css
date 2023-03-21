@@ -278,3 +278,39 @@ header .container{
 .linkedin-icon{
     margin-right: 10px;
 }
+/* get started */
+.get-started-area{
+    background-color: var(--light-purple);
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+.not-title{
+    color: #CBC9F1;
+    text-transform: uppercase;
+}
+.get-started-title{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.free{
+    color: #FDC15F;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+.started-text{
+    line-height: var(--line-height);
+}
+.get-started-btn{
+    padding: 1rem 0;
+    width: 80%;
+    color: var(--light-purple);
+    letter-spacing: 4px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 2rem 0;
+}
+.get-started-copyright a{
+ color: white;
+}
