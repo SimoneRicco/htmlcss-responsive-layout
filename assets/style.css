@@ -15,7 +15,8 @@ html{
     font-family: 'Ubuntu', sans-serif;
 }
 .container{
-    width: 80%;
+    width: 100%;
+    padding-inline: 25px;
     margin: auto;
 }
 .small-container{
@@ -41,7 +42,7 @@ header .container{
     justify-content: space-between;
     align-items: center;
     color: white;
-    padding: 2rem 0;
+    padding: 2rem 25px;
 }
 .menu-icon{
     font-size: 2rem;
@@ -49,9 +50,8 @@ header .container{
 nav{
     display: none;
     justify-content: space-between;
-    width: 35%;
+    gap: 1.5rem;
     align-items: center;
-    /* display: none; */
 }
 nav a{
     color: white;
@@ -171,6 +171,7 @@ nav a{
 .card{
     background-color: var(--light-purple);
     color: white;
+    margin-inline: 2rem;
 }
 .img-area{
     width: 100%;
@@ -348,9 +349,8 @@ footer{
 /* responsive area  */
 
 @media screen and (min-width: 480px) {
-    .container{
-        width: 90%;
-    }
+    /* .container{
+    } */
     .jumbo-container{
         flex-direction: row;
         flex-wrap: wrap;
@@ -405,5 +405,12 @@ footer{
     }
     .nav-icon{
         display: none;
+    }
+    .big{
+        display: flex;
+    }
+    .phone{
+        margin: 0;
+        width: 50%;
     }
 }
