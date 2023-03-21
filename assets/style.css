@@ -170,7 +170,8 @@ header .container{
 .prof-img img{
     object-fit: cover;
     width: 100%;
-    aspect-ratio: 1 / 1
+    aspect-ratio: 1 / 1;
+    display: block;
 }
 .card-text{
     line-height: var(--line-height);
@@ -188,4 +189,44 @@ header .container{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+/* benefits */
+.benefits{
+    background-color: var(--light-purple);
+    padding: 3rem 0;
+}
+.benefit{
+    background-color: white;
+}
+.benefits h2{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.nbr{
+    color: var(--light-purple);
+    font-size: 3rem;
+}
+.ben-title{
+    color: var(--light-purple);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 1.5rem 0;
+}
+.ben-text{
+    line-height: var(--line-height);
+}
+.more{
+    background-color: var(--light-purple);
+    color: white;
+    padding: 1rem 4rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.ben-area{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
